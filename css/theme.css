@@ -1,0 +1,140 @@
+:root {
+  --black: #161316;
+  --semi-black: #1b181c;
+  --white: #fffffc;
+  --purple: #6320ee;
+  --aqua: #61f8b6;
+  --title-size: 2em;
+  --text-size: 1em;
+  --text-size-mobile: 0.95em;
+}
+
+body {
+  font-family: "futura-pt", sans-serif;
+  color: #fffffc;
+  padding: 0;
+  margin: 0;
+  background-color: #161316;
+}
+
+.preload {
+  overflow: hidden;
+}
+
+section {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  max-width: 1250px;
+  padding: 0.5em;
+  margin-bottom: 5em;
+}
+
+.cta-button {
+  padding: 0.5em 1.5em;
+  font-size: var(--text-size);
+  border: var(--aqua) solid 3px;
+  border-radius: 20px;
+  color: var(--aqua);
+  background-color: var(--semi-black);
+  cursor: pointer;
+  width: 175px;
+  z-index: 9;
+  text-align: center;
+}
+
+.cta-button span {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.max-width {
+  max-width: 1800px;
+}
+
+.horizontal_flip {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.verical_flip {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.backg-figure {
+  position: absolute;
+  fill: var(--semi-black);
+  z-index: -10;
+  height: 160px;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.backg-text {
+  position: absolute;
+  bottom: -0.24em;
+  font-size: 15vw;
+  font-weight: 800;
+  color: var(--semi-black);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  cursor: default;
+  z-index: -1;
+}
+
+.scroll-down_left {
+  fill: white;
+  position: absolute;
+  height: 200px;
+  left: 1em;
+  bottom: 1em;
+}
+
+.scroll-down_right {
+  fill: white;
+  position: absolute;
+  height: 200px;
+  right: 1em;
+  bottom: 1em;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+ul,
+a,
+button {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: var(--white);
+}
