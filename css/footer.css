@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: var(--black2);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    min-height: 100px;
+}
+
+.footer-content h1 {
+    font-size: 2.5em;
+}
+
+.footer-content i {
+    color: var(--purple);
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-content h1 {
+        font-size: 1.5em;
+    }
+
+}

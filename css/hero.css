@@ -47,4 +47,13 @@
   .hero-content_title {
     font-size: 3em;
   }
+  .hero-fig-sq {
+    left: 0%;
+    top: 150px;
+  }
+  
+  .hero-fig-sq2 {
+    right: 0%;
+    top: 200px;
+  }
 }

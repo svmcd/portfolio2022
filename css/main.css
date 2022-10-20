@@ -4,9 +4,12 @@
 @import url(about.css);
 @import url(projects.css);
 @import url(contact.css);
+@import url(footer.css);
 
 .loading-wrapper {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     position: fixed;
     left: 0;
