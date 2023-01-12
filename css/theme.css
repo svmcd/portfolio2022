@@ -45,6 +45,7 @@ section {
   cursor: pointer;
   width: 175px;
   text-align: center;
+  z-index: 50 !important;
 }
 
 .cta-button:hover {

@@ -99,7 +99,7 @@
         <div class="about-content content">
             <div class="about-content_textcontainer">
                 <h3 class="about-content_title">even wat over mij</h3>
-                <p class="about-content_text">ik ben al sinds 2020 bezig met het bouwen van websites. mijn focus ligt vooral op het ontwerpen en bouwen van websites, front-end dus. en een snuifje back-end. momenteel ben ik nog bezig met mijn studie 'software developer' bij het Mediacollege Amsterdam. daarnaast bouw ik soms ook websites als freelancer.</p>
+                <p class="about-content_text">Ik ben al sinds 2020 bezig met het bouwen van websites. Mijn focus ligt vooral op het ontwerpen en bouwen van websites, front-end dus, en een snuifje back-end. Momenteel ben ik nog bezig met mijn studie software development bij het Mediacollege Amsterdam. Daarnaast bouw ik soms ook websites als freelancer.</p>
                 <a href="#projects" class="cta-button">bekijk mijn werk</a>
             </div>
             <div class="about-content_imagecontainer">
@@ -166,7 +166,7 @@
                     <div class="slider-left">
                         <div class="left-textbox">
                             <div class="text">
-                                Dit is een examenopdracht wat bij mijn studie hoort. Voor deze opdracht kreeg je een onderwerp en een stijl waarmee je hoorde te werken. In mijn geval was het onderwerp 'games' in het stijl van 'Storytel'. Verder was het de bedoeling om hier een soort webapp van te maken waarmee je de mogelijkheid krijgt om een collectie van een bepaalde groep producten bij te houden, en daarbij aanbevenlingen krijg op basis van je wensen en collectie.
+                                Dit is een examenopdracht wat bij mijn studie hoort. Voor deze opdracht kreeg je een onderwerp en een stijl waarmee je hoorde te werken. In mijn geval was het onderwerp 'games' in het stijl van 'Storytel'. Verder was het de bedoeling om hier een soort webapp van te maken waarmee je de mogelijkheid krijgt om een collectie van een bepaalde groep producten bij te houden, en daarbij aanbevenlingen krijg op basis van je wensen en collectie. De website komt pas online na mijn examens.
                             </div>
                             <div class="date">
                                 nog aan de gang
@@ -176,16 +176,41 @@
                     <div class="slider-right">
                         <div class="right-textbox">
                             <div class="title">Collezione</div>
-                            <div class="subtitle ">ReactJS, SCSS</div>
+                            <div class="subtitle ">ReactJS, swiperJS, SCSS</div>
                         </div>
                         <img class="right-image" src="images/collezione.png" alt="">
                         <div class="right-links">
                             <div>
-                                <a class="cta-button" href="" target="_blank">Bezoek website</a>
                             </div>
                             <div class="links">
-                                <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
-                                <a href="https://trello.com/b/dzGNvY9j/product-backlog" target="_blank"><i class="fa-brands fa-trello"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- ---------------------------------------------------------- slide 1 -->
+                <div class="swiper-slide">
+                    <div class="slider-left">
+                        <div class="left-textbox">
+                            <div class="text">
+                                iTrell was een mini project dat ik voor een vak had gemaakt. De opdracht was om een soort Trello app te maken in React met Redux met als doel om meer over Redux te leren. Voor dit project had ik een glassmorphism style gebruikt. 
+                            </div>
+                            <div class="date">
+                                November 2022
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="right-textbox">
+                            <div class="title">iTrell</div>
+                            <div class="subtitle ">ReactJS, Redux, SCSS</div>
+                        </div>
+                        <img class="right-image" src="images/itrell.png" alt="">
+                        <div class="right-links">
+                            <div>
+                                <a class="cta-button" href="https://samedpolat.nl/itrell/" target="_blank">Bezoek website</a>
+                            </div>
+                            <div class="links">
+                                <a href="https://github.com/svmcd/React-lessen/tree/master/itrell" target="_blank"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -260,7 +285,7 @@
                     <div class="slider-right">
                         <div class="right-textbox">
                             <div class="title">Corono</div>
-                            <div class="subtitle ">HTML, CSS, Javascript, Adobe XD, Adobe Illustrator, SCRUM</div>
+                            <div class="subtitle ">HTML, CSS, Javascript, Adobe XD, Adobe Illustrator</div>
                         </div>
                         <img class="right-image" src="images/corono.png" alt="">
                         <div class="right-links">
@@ -289,7 +314,7 @@
                     <div class="slider-right">
                         <div class="right-textbox">
                             <div class="title">Greenhouse</div>
-                            <div class="subtitle ">HTML, CSS, Javascript, JSON, API's, Adobe XD, Adobe Illustrator, SCRUM</div>
+                            <div class="subtitle ">HTML, CSS, Javascript, JSON, API's, Adobe XD, Adobe Illustrator</div>
                         </div>
                         <img class="right-image" src="images/greenhouse.png" alt="">
                         <div class="right-links">
@@ -315,7 +340,7 @@
         <div class="about-content content">
             <div class="contact-content_textcontainer">
                 <h3 class="about-content_title">vraag of opmerking?</h3>
-                <p class="about-content_text">neem gerust contact met mij op.</p>
+                <p class="about-content_text">Neem gerust contact met mij op.</p>
                 <div class="contact-content_hyperlinks">
                     <a class="hyperlink" href="mailto:spolat0750@gmail.com">stuur een mailtje</a>
                     <a class="hyperlink" href="https://www.linkedin.com/in/samed-polat-b400891b2/">connect op LinkedIn</a>
